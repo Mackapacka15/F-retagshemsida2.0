@@ -1,0 +1,49 @@
+a {
+  text-decoration: none;
+  color: black;
+}
+.Sidebar {
+  position: fixed;
+  padding-top: 50px;
+  margin-top: 20px;
+  width: 10%;
+  color: black;
+}
+nav ul {
+  height: 50vh;
+  color: black;
+  background-color: rgba(173, 171, 171, 0.822);
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+nav li {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+nav li:hover {
+  background-color: grey;
+}
+footer {
+  width: 100%;
+  margin: 0px;
+  padding: 5px;
+}
+footer ul {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  list-style: none;
+}
+.footer_list {
+  height: 100%;
+  padding: 1px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
