@@ -1,5 +1,6 @@
 * {
   margin: 0;
+  font-family: "Roboto", sans-serif;
 }
 a {
   text-decoration: none;
@@ -13,6 +14,7 @@ header {
   justify-content: space-evenly;
   position: fixed;
   top: 0;
+  font-family: "Roboto", sans-serif;
 }
 .Navbar {
   top: 5rem;
@@ -37,6 +39,10 @@ nav li {
   margin: auto;
   color: blue;
   padding: auto;
+  line-height: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  font-family: "Roboto", sans-serif;
 }
 nav li:hover {
   background-color: rgba(93, 162, 194, 0.342);
@@ -44,12 +50,57 @@ nav li:hover {
 .Main-area {
   margin-top: 7rem;
   width: 100%;
+  font-family: "Roboto", sans-serif;
 }
 .Kampanj {
   width: 100%;
+  position: relative;
+  margin: 0%;
 }
 .Kampanj img {
   width: 100%;
+}
+.Kampanj h2 {
+  color: whitesmoke;
+  position: absolute;
+  font-size: 3rem;
+  width: 15ch;
+  top: calc(50% - 12rem);
+}
+.Kampanj-text {
+  color: whitesmoke;
+  position: absolute;
+  font-size: larger;
+  top: 50%;
+  left: 15%;
+  width: 35ch;
+}
+.Kampanj-text p {
+  margin-top: 5%;
+  border-radius: 25px;
+  background-color: rgb(12, 171, 219);
+  padding: 10px;
+}
+.Kampanj2 {
+  background: #ffad33;
+  margin: 0px;
+  padding: 2%;
+  text-align: center;
+}
+.Kampanj2 a {
+  color: whitesmoke;
+}
+.arrow {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 6px;
+}
+
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  border-color: whitesmoke;
 }
 .Main-text {
   display: flex;
