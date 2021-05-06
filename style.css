@@ -7,7 +7,6 @@ a {
   color: black;
 }
 header {
-  margin-top: 10px;
   display: flex;
   width: 100%;
   height: 5rem;
@@ -15,6 +14,7 @@ header {
   position: fixed;
   top: 0;
   font-family: "Roboto", sans-serif;
+  background-color: whitesmoke;
 }
 .Navbar {
   top: 5rem;
@@ -25,7 +25,7 @@ nav {
   margin-top: 0;
   padding: auto;
   width: 100%;
-  background-color: rgba(103, 241, 230, 0.822);
+  background-color: rgb(103, 241, 229);
 }
 nav ul {
   width: 50rem;
@@ -61,7 +61,7 @@ nav li:hover {
   width: 100%;
 }
 .Kampanj h2 {
-  color: whitesmoke;
+  color: white;
   position: absolute;
   font-size: 3rem;
   width: 15ch;
@@ -113,6 +113,47 @@ nav li:hover {
 .Main-text p {
   margin: auto;
   width: 50rem;
+}
+.Pooler-Text {
+  margin-left: 15rem;
+  margin-top: 10rem;
+  width: auto;
+  text-align: left;
+}
+.Pooler-Text h2 {
+  width: 60rem;
+  margin: auto;
+  padding-bottom: 1rem;
+}
+.Pooler-Text p {
+  margin: auto;
+  width: 60rem;
+  line-height: 1.5rem;
+}
+.Pooler-Bilder {
+  margin-left: 15rem;
+  width: auto;
+}
+.Pooler-Bilder ul {
+  margin-left: 15rem;
+  margin: auto;
+  width: 60rem;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.Pooler-Bilder img {
+  width: 10rem;
+}
+.Pooler-Bilder li {
+  list-style: none;
+  margin: 0.5rem;
+  width: auto;
+  border-style: solid;
+  border-width: 1px;
+  border-color: grey;
+  padding: 10px;
+  text-align: center;
 }
 footer {
   width: 100%;
