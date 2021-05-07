@@ -7,6 +7,7 @@ a {
   color: black;
 }
 header {
+  padding-top: 1rem;
   display: flex;
   width: 100%;
   height: 5rem;
@@ -114,9 +115,10 @@ nav li:hover {
   margin: auto;
   width: 50rem;
 }
+
 .Pooler-Text {
   margin-left: 15rem;
-  margin-top: 10rem;
+  margin-top: 1rem;
   width: auto;
   text-align: left;
 }
@@ -151,13 +153,57 @@ nav li:hover {
   width: auto;
   border-style: solid;
   border-width: 1px;
-  border-color: grey;
+  border-color: rgb(212, 212, 212);
   padding: 10px;
   text-align: center;
+}
+.Pooler-Bild {
+  margin-left: 40rem;
+}
+.Pooler-Lista {
+  margin-left: 40rem;
+}
+.Pooler-Lista li {
+  margin-top: 0.5rem;
+}
+.Pooler-Produkter {
+  min-width: fit-content;
+  margin-top: 5rem;
+  margin-left: 30rem;
+}
+.Pooler-Produkter ul {
+  display: flex;
+  flex-direction: row;
+}
+.Pooler-Produkter li {
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(212, 212, 212);
+  padding: 10px;
+  width: 25ch;
+  text-decoration: none;
+  list-style: none;
+  padding: auto;
+  margin: 0px;
+  margin-left: 1rem;
+}
+.Pooler-Produkter p {
+  font-size: 0.9rem;
+}
+.Pooler-Produkter img {
+  width: 10rem;
+}
+.Pooler-Produkter h2 {
+  text-align: center;
+  margin-bottom: 2rem;
 }
 footer {
   width: 100%;
   margin: 0px;
+  margin-top: 2rem;
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+  background-color: rgba(86, 207, 255, 0.452);
 }
 
 footer ul {
@@ -172,4 +218,13 @@ footer ul {
   display: flex;
   justify-content: space-between;
   flex-direction: column;
+}
+.Margin {
+  margin-top: 10rem;
+}
+.Blue h2 {
+  color: rgb(0, 153, 255);
+}
+.Blue a {
+  color: rgb(0, 153, 255);
 }
