@@ -69,9 +69,9 @@ nav li:hover {
   top: calc(50% - 12rem);
 }
 .Kampanj-text {
-  color: whitesmoke;
+  color: rgb(255, 255, 255);
   position: absolute;
-  font-size: larger;
+  font-size: 3ch;
   top: 50%;
   left: 15%;
   width: 35ch;
@@ -103,6 +103,7 @@ nav li:hover {
   -webkit-transform: rotate(-45deg);
   border-color: whitesmoke;
 }
+
 .Main-text {
   display: flex;
   justify-content: center;
@@ -114,6 +115,30 @@ nav li:hover {
 .Main-text p {
   margin: auto;
   width: 50rem;
+}
+
+.Kategori_bilder {
+  width: auto;
+  background-color: rgba(0, 238, 255, 0.089);
+}
+.Kategori_bilder img {
+  width: 22rem;
+}
+.Kategori_bilder ul {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  text-decoration: none;
+  list-style: none;
+  margin-left: 15rem;
+  margin-right: 15rem;
+}
+.Kategori_bilder li {
+  margin: 2rem;
+  background-color: rgba(99, 99, 99, 0.384);
+}
+.Kategori_bilder p {
+  padding: 10px;
 }
 
 .Pooler-Text {
@@ -189,9 +214,11 @@ nav li:hover {
 }
 .Pooler-Produkter p {
   font-size: 0.9rem;
+  text-align: center;
 }
 .Pooler-Produkter img {
   width: 10rem;
+  padding-left: 15%;
 }
 .Pooler-Produkter h2 {
   text-align: center;
